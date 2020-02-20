@@ -58,3 +58,19 @@ A cette étape vous aurez un environnement de développement de votre code et av
 ![ChoixLangageProg](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/ChoixLangageProg.PNG " choisir le langage de programmation ")<br><br>
 Maintenant nous pouvons mettre en place des évenements de test en cliqaunt sur le boutton tester, pour ensuite éxécuter la fonction.
 ![CreerEvent](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/CreerEvent.PNG "creer event")<br><br>
+Les evenements de test sont définis par le code suivant:  
+<pre><code>{
+ "key1": "Hello word",
+ "key2": "Bonjour !!!"
+}</code></pre>  
+Maintenant nous pouvont appeler un événement au niveau du code NodeJs pour éxécuter la fonction.
+<pre><code>exports.handler = async (event) => {
+    // TODO implement
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify("Value is " + event.key1),
+    };
+    return response;
+};</code></pre>  
+Le résultats de notre fonction hellWord est illustré par la figure suivante.
+![resultat](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/resultat.PNG "resultat")<br><br>
