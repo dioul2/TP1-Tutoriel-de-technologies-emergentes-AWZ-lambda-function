@@ -46,15 +46,16 @@ Parmis les services les plus populaires de Google Cloud Platform (GCP) on y trou
 ### 1.CHOIX DE PLATEFORME  
 ### 2.TUTORIEL D'UTILISATION AWS LAMBDA
 Dans cette partie nous allons faire un tutoriel d’utilisation du service Lambda de AWS en mettant en place une fonction HelloWorld.<br/>
-La première étape consiste à créer un compte AWS puis se connecter à  la console AWS Management.  
+La première étape consiste à créer un compte AWS puis se connecter à  la console AWS Management.<br>  
 [Créer un compte AWS Amazon ](https://aws.amazon.com/fr/)  
 
 Une fois authentifié, rechercher et lancer le service Lamba pour ensuite cliquez sur créer une  fonction.  
 ![Lambda logo](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/Lambda.png "Lambda logo")   <br><br>
-Cette étape affiche plusieurs options afin de créer une fonction, nous allons prendre l’option: * **“Créer à partir de zéro”**.  
+Cette étape affiche plusieurs options afin de créer une fonction, nous allons prendre l’option: * **“Créer à partir de zéro”**.<br>  
 ![Option de crétion de compte](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/Options%20creer%20fonction.png "Option de crétion de compte") <br><br>  
 
-Ensuite nous pouvons donner un nom à la fonction et choisir ou créer un modèle de d’éxécution. Pour ce tutoriel nous allons créer un  rôle, lui donner un nom et définir **le modèle de stratégies en une simple autorisation de microservice**.  
+Ensuite nous pouvons donner un nom à la fonction et choisir ou créer un modèle de d’éxécution. Pour ce tutoriel nous allons créer un  rôle, lui donner un nom et définir **le modèle de stratégies en une simple autorisation de microservice**.<br>  
 ![ChoixDeFonctionCreer](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/nomFonction_Role.PNG " ChoixDeFonctionCreer ") <br><br>  
 
-
+A cette étape vous aurez à l’affichage un exemple de code et vous avez le choix parmis les langage de programmation supportés par AWS(.NET, Go, Java, NodeJs, Ruby et Python). Pour ce tutorial le choix est opté pour le NodeJs.  
+![ChoixLangageProg](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/nomFonction_Role.PNG " Choisir langage de progrmmation ") <br><br> 
