@@ -46,4 +46,7 @@ Parmis les services les plus populaires de Google Cloud Platform (GCP) on y trou
 ### 1.CHOIX DE PLATEFORME  
 ### 2.TUTORIEL D'UTILISATION AWS LAMBDA
 Dans cette partie nous allons faire un tutoriel d’utilisation du service Lambda de AWS en mettant en place une fonction HelloWorld.<br/>
-La première étape consiste à créer un compte AWS puis se connecter à  la console AWS Management. Une fois authentifié recherché et lancer le service Lamba pour ensuite cliquez sur créer une  fonction.
+La première étape consiste à créer un compte AWS puis se connecter à  la console AWS Management.  
+[Créer un compte AWS Amazon ](https://aws.amazon.com/fr/)  
+
+Une fois authentifié recherché et lancer le service Lamba pour ensuite cliquez sur créer une  fonction.
