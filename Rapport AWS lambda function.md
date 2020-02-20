@@ -50,6 +50,11 @@ La première étape consiste à créer un compte AWS puis se connecter à  la co
 [Créer un compte AWS Amazon ](https://aws.amazon.com/fr/)  
 
 Une fois authentifié, rechercher et lancer le service Lamba pour ensuite cliquez sur créer une  fonction.  
-![Lambda logo](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/Lambda.png "Lambda logo")  
+![Lambda logo](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/Lambda.png "Lambda logo")   <br><br>
 Cette étape affiche plusieurs options afin de créer une fonction, nous allons prendre l’option: * **“Créer à partir de zéro”**.  
-![Option de crétion de compte](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/Options%20creer%20fonction.png "Option de crétion de compte")  
+![Option de crétion de compte](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/Options%20creer%20fonction.png "Option de crétion de compte") <br><br>  
+
+Ensuite nous pouvons donner un nom à la fonction et choisir ou créer un modèle de d’éxécution. Pour ce tutoriel nous allons créer un  rôle, lui donner un nom et définir **le modèle de stratégies en une simple autorisation de microservice**.  
+![ChoixDeFonctionCreer](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/nomFonction_Role.PNG " ChoixDeFonctionCreer ") <br><br>  
+
+
