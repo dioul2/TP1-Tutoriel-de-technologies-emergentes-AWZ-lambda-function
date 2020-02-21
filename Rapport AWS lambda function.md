@@ -42,7 +42,7 @@ Actuellment le Serveless est de plus en plus utilisé dans les entreprises vu le
 |---|---|---|---|---|
 |Amazon lambda |-Ancienneté <br> -Grande communauté <br> -Service AWS intégré(EC2, S3,...)  |-Temps d'éxution d'une fonction limité <br>|Java, Node.js, C#, Python|-12 mois gratuits pour 1 millions de requêtes/mois <br> -puis 0,20$/million de requêtes et 0,00001667$/Go utilisé.|
 |Azure Functions |-Supporte plus de langage|-Technologie jeune <br> -Pas une grande communauté   |C#, JavaScript, F#, Python, PHP, Bash, Powershell|- 1 million de requêtes/mois gratuits<br> - puis 0,169$/million d'exécutions et 0,000014$/Go.|
-|Google Cloud Functions |   |   |   |   |
+|Google Cloud Functions |- Service de débogage<br>- Association avec Firebase|-Peu de langage de programmation supporté|JavaScript, Node.js|Pas encore défini spécifiquement|
 
 ## II.CHOIX ET MISE EN PRATIQUE  
 ### 1.CHOIX DE PLATEFORME  
