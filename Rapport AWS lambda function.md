@@ -1,7 +1,3 @@
-# Rapport TP1 Turotiel tecthnologies emergentes
-## Choix du sujet: Function as a Service (Serverless)
-Dans le cadre du cours **8INF853 - Architecture des applications d'entreprise** nous avons choisi de travailler sur la technologie serverless (“sans serveurs”) initiée par amazon. Elle a pour but de permettre au développeur de se concentrer uniquement sur son code et le provider gère les parties infrastructures et serveurs. En effet cette technologie a tendance à prendre de plus en plus une place importante dans les entreprises, et est très utilisé dans l’environnement du cloud computing. Dans ce sens apprendre et expérimenter cette nouvelle technologie émergente serait pour nous une opportunité de développer une nouvelle connaissance pour notre future insertion professionnelle.
-
 ## INTRODUCTION
 Traditionnellement le développement et le déploiement  des applications est fait sur des serveurs par lequel les requêtes HTTP entrantes sur les serveurs sont contrôlés par l'équipe de développement. Ceci étant une tâche qui peut être lourde pour les petites entreprises et les développeurs individuels dans leur productivité. 
 Dans les grandes entreprise bien qu’elles ont une équipe d'infrastructure qui se charge des services, le même problème se pose vu la dépendance avec l’équipe de développement. La notion de serverless est venu pour pallier à ces problèmes. Dans le cadre de projet nous allons dans un premier temps aborder les principes de bases de cette technologie et enfin nous allons voir la mise en place de cette dernière.
