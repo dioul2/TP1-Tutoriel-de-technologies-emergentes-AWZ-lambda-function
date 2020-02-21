@@ -32,8 +32,8 @@ En effet, les prix varient selon le type de service mais aussi de la capacité d
   * Azure Cosmos DB: qui est une  base de donnée NoSQL hébergé pour des cas d’utilisation spécifiques.
   *Azure Media Services: propose des services de lecture, d’indexation, de transcodage et de protection de contenu vidéo.
 
-* **Google Cloud Platform (GPC):** est un ensemble de services cloud offert par Google pour les développeurs et les gestionnaires d’infrastructure regroupant différents services tels que: de stockage, de networking, de Big Data, de machine learning, d’internet d’objets, de sécurité, etc… Comme toutes les platform cloud, celle de google permet aussi d'épargner  aux entreprises toutes les tâches liées à l’infrastructure et de profiter pleinement à son service à faible coûts.  
-      *mettre image*  
+* **Google Cloud Platform (GPC):** est un ensemble de services cloud offert par Google pour les développeurs et les gestionnaires d’infrastructure regroupant différents services tels que: de stockage, de networking, de Big Data, de machine learning, d’internet d’objets, de sécurité, etc… Comme toutes les platform cloud, celle de google permet aussi d'épargner  aux entreprises toutes les tâches liées à l’infrastructure et de profiter pleinement à son service à faible coûts.
+![google plateforme](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/google-cloud-platform-introduction-2016q3-5-638.jpg "google plateforme")<br><br>
 Parmis les services les plus populaires de Google Cloud Platform (GCP) on y trouve le google: Compute Engine, App Engine, cloud Storage, Container Engine.
 
 ### 4.CRITERES DE CHOIX  
@@ -45,7 +45,8 @@ Actuellment le Serveless est de plus en plus utilisé dans les entreprises vu le
 |Google Cloud Functions |- Service de débogage<br>- Association avec Firebase|-Peu de langage de programmation supporté|JavaScript, Node.js|Pas encore défini spécifiquement|
 
 ## II.CHOIX ET MISE EN PRATIQUE  
-### 1.CHOIX DE PLATEFORME  
+### 1.CHOIX DE PLATEFORME
+
 ### 2.TUTORIEL D'UTILISATION AWS LAMBDA
 Dans cette partie nous allons faire un tutoriel d’utilisation du service Lambda de AWS en mettant en place une fonction HelloWorld.<br><br>
 La première étape consiste à créer un compte AWS puis se connecter à  la console AWS Management.  
