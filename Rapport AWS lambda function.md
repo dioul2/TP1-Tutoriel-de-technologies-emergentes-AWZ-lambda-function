@@ -36,7 +36,13 @@ En effet, les prix varient selon le type de service mais aussi de la capacité d
       *mettre image*  
 Parmis les services les plus populaires de Google Cloud Platform (GCP) on y trouve le google: Compute Engine, App Engine, cloud Storage, Container Engine.
 
-### 4.CRITERES DE CHOIX
+### 4.CRITERES DE CHOIX  
+Actuellment le Serveless est de plus en plus utilisé dans les entreprises vu les avantages qu'il offre. Ainsi le choix d'un provider peut etre une étape crucial dans le processus de migration. Dans le tableau suivant nous allons mettre en évidence des éléments qui peuvent etre éssentielle pour le choix d'un provider.
+|   |Avantages | Inconvénients | Langages      |Coûts|
+|---|---|---|---|---|
+|Amazon lambda |-Ancienneté <br> -Grande communauté <br> -Service AWS intégré(EC2, S3,...)  |-Temps d'éxution d'une fonction limité <br>|Java, Node.js, C#, Python|-12 mois gratuits pour 1 millions de requêtes/mois <br> -puis 0,20$/million de requêtes et 0,00001667$/Go utilisé.|
+|Azure Functions |-Supporte plus de langage|-Technologie jeune <br> -Pas une grande communauté   |C#, JavaScript, F#, Python, PHP, Bash, Powershell|- 1 million de requêtes/mois gratuits<br> - puis 0,169$/million d'exécutions et 0,000014$/Go.|
+|Google Cloud Functions |   |   |   |   |
 
 ## II.CHOIX ET MISE EN PRATIQUE  
 ### 1.CHOIX DE PLATEFORME  
