@@ -78,7 +78,7 @@ Maintenant nous pouvont appeler un événement au niveau du code NodeJs pour éx
 Le résultats de notre fonction hellWord est illustré par la figure suivante.
 ![resultat](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/resultat.PNG "resultat")<br><br>
 
-##Liste de références: <br>
+## Liste de références: <br>
 [Server stack](https://serverless-stack.com/chapters/fr/what-is-serverless.html)<br>
 [Building Serverless Web Application](https://www.packtpub.com/application-development/building-serverless-web-applications) <br>
 [Serverless ou FAAS(Function As A Service), une révolution?](https://www.theodo.fr/digital-et-strategie/serverless-faas-une-revolution)<br>
