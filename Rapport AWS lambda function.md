@@ -1,18 +1,18 @@
 ## INTRODUCTION
 Traditionnellement le développement et le déploiement  des applications est fait sur des serveurs par lequel les requêtes HTTP entrantes sur les serveurs sont contrôlés par l'équipe de développement. Ceci étant une tâche qui peut être lourde pour les petites entreprises et les développeurs individuels dans leur productivité. 
-Dans les grandes entreprise bien qu’elles ont une équipe d'infrastructure qui se charge des services, le même problème se pose vu la dépendance avec l’équipe de développement. La notion de serverless est venu pour pallier à ces problèmes. Dans le cadre de projet nous allons dans un premier temps aborder les principes de bases de cette technologie et enfin nous allons voir la mise en place de cette dernière.
+Dans les grandes entreprise bien qu’elles ont une équipe d'infrastructure qui se charge des services, le même problème se pose vu la dépendance avec l’équipe de développement. La notion de serverless est venu pour pallier à ces problèmes. Dans le cadre de ce tutoriel nous allons dans un premier temps aborder les principes de bases de cette technologie et enfin nous allons voir la mise en place de cette dernière.
 
 ## I.ETAT DE L'ART
 ### 1.DEFINITION
-La notion de serverless ou “sans serveur” est un modèle d’application de cloud computing dans lequel le provider gère la partie infrastructure et serveurs. Ainsi les clients peuvent créer et exécuter leurs applications sur le cloud sans se soucier des tâches  liées aux serveurs. Ceci permet d’alléger les tâches des développeurs puisse qu’ils ne se chargent plus de la gestion, la maintenance, la disponibilité ou d’ajuster la charge au niveau des serveurs.L’allocation des ressources nécessaires se fait de façon dynamique en fonction des besoins du client (développeur), ainsi la facturation est défini dépendra du temps d’utilisation/ quantité de ressources consommé. L'accès aux ressources se fait à travers un déclenchement d’une variété d’évènements notamment les requêtes http, les événements de bases de données, de file d’attentes [1]...
+La notion de serverless ou “sans serveur” est un modèle d’application de cloud computing dans lequel le provider gère la partie infrastructure et serveur. Ainsi les clients peuvent créer et exécuter leurs applications sur le cloud sans se soucier des tâches  liées aux serveurs. Ceci permet d’alléger les tâches des développeurs puisse qu’ils ne se chargent plus de la gestion, la maintenance, la disponibilité ou d’ajuster la charge au niveau des serveurs.L’allocation des ressources nécessaires se fait de façon dynamique en fonction des besoins du client (développeur), ainsi la facturation définie dépendra du temps d’utilisation/ quantité de ressources consommées. L'accès aux ressources se fait à travers un déclenchement d’une variété d’évènements notamment les requêtes http, les événements de bases de données, de file d’attentes [1]...
 
 ### 2. AVANTAGES ET INCONVENIENTS
 Le serverless est aujourd’hui en forte croissante dans les entreprises en offrant plus de flexibilité et d’agilité dans les entreprises. Cependant étant une technologie jeune, elle présente des avantages ainsi que des inconvénients.  
 
 Les principaux avantages sont les suivants:
-* **La facturation sur la consommation:** avec le serverless la facturation se base sur la mesure en temps de d'éxécution du code et des ressources consommées. Donc plus de facturation inutile ou pendant qu’une fonction n’est pas utilisée.
+* **La facturation sur la consommation:** avec le serverless la facturation se base sur la mesure en temps d'éxécution du code et des ressources consommées. Donc plus de facturation inutile ou pendant qu’une fonction n’est pas utilisée.
 * **Le gain de temps pour les développeurs:** les problèmes d’infrastructures ne sont plus gérés par les développeurs, ils se focalisent totalement sur la qualité du code et les fonctionnalités des applications.
-* **isponibilité des ressources:** permet d’assurer l'accessibilité d’une ressource à chaque appelle de fonction.  
+* **Disponibilité des ressources:** permet d’assurer l'accessibilité d’une ressource à chaque appelle de fonction.  
 
 Mais cette technologie présente également quelques inconvénients que nous verrons ci dessous:
 * **Le “vendor lock-in”:**  chaque fournisseur serverless a sa propre architecture et ses règles qu’il faut accepter. Cette différence entre ces providers fait qu’il est très difficile de migrer vers un autre. 
@@ -30,10 +30,9 @@ En effet, les prix varient selon le type de service mais aussi de la capacité d
   * Azure IoT: qui permet de connecter et de surveiller les objets connectés mais aussi offre des fonctionnalités de télémétrie et          d’analyse. 
   * HDInsight: qui est un déploiement personnalisé de la plateforme Big Data Hadoop.
   * Azure Cosmos DB: qui est une  base de donnée NoSQL hébergé pour des cas d’utilisation spécifiques.
-  *Azure Media Services: propose des services de lecture, d’indexation, de transcodage et de protection de contenu vidéo.
+  * Azure Media Services: propose des services de lecture, d’indexation, de transcodage et de protection de contenu vidéo.
 
-* **Google Cloud Platform (GPC):** est un ensemble de services cloud offert par Google pour les développeurs et les gestionnaires d’infrastructure regroupant différents services tels que: de stockage, de networking, de Big Data, de machine learning, d’internet d’objets, de sécurité, etc… Comme toutes les platform cloud, celle de google permet aussi d'épargner  aux entreprises toutes les tâches liées à l’infrastructure et de profiter pleinement à son service à faible coûts.
-![google plateforme](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/google-cloud-platform-introduction-2016q3-5-638.jpg "google plateforme")<br><br>
+* **Google Cloud Platform (GPC):** est un ensemble de services cloud offert par Google pour les développeurs et les gestionnaires d’infrastructure regroupant différents services tels que: de stockage, de networking, de Big Data, de machine learning, d’internet d’objets, de sécurité, etc… Comme toutes les platform cloud, celle de google permet aussi d'épargner  aux entreprises toutes les tâches liées à l’infrastructure et de profiter pleinement à son service à faible coûts.<br>
 Parmis les services les plus populaires de Google Cloud Platform (GCP) on y trouve le google: Compute Engine, App Engine, cloud Storage, Container Engine.
 
 ### 4.CRITERES DE CHOIX  
