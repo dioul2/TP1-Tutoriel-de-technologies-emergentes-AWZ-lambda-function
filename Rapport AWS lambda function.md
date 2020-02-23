@@ -75,9 +75,11 @@ Maintenant nous pouvont appeler un événement au niveau du code NodeJs pour éx
     return response;
 };</code></pre>  
 Le résultats de notre fonction hellWord est illustré par la figure suivante.
-![resultat](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/resultat.PNG "resultat")<br><br>
+![resultat](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/resultat.PNG "resultat")  
 
-## Liste de références: <br>
+
+## Références:  
+[Building Serveless Architectures](https://international.scholarvox.com/book/88842923)<br>
 [Server stack](https://serverless-stack.com/chapters/fr/what-is-serverless.html)<br>
 [Building Serverless Web Application](https://www.packtpub.com/application-development/building-serverless-web-applications) <br>
 [Serverless ou FAAS(Function As A Service), une révolution?](https://www.theodo.fr/digital-et-strategie/serverless-faas-une-revolution)<br>
