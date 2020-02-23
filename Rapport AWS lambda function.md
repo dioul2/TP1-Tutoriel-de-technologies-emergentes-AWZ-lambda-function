@@ -32,8 +32,7 @@ En effet, les prix varient selon le type de service mais aussi de la capacité d
   * Azure Cosmos DB: qui est une  base de donnée NoSQL hébergé pour des cas d’utilisation spécifiques.
   * Azure Media Services: propose des services de lecture, d’indexation, de transcodage et de protection de contenu vidéo.
 
-* **Google Cloud Platform (GPC):** est un ensemble de services cloud offert par Google pour les développeurs et les gestionnaires d’infrastructure regroupant différents services tels que: de stockage, de networking, de Big Data, de machine learning, d’internet d’objets, de sécurité, etc… Comme toutes les platform cloud, celle de google permet aussi d'épargner  aux entreprises toutes les tâches liées à l’infrastructure et de profiter pleinement à son service à faible coûts.<br>
-Parmis les services les plus populaires de Google Cloud Platform (GCP) on y trouve le google: Compute Engine, App Engine, cloud Storage, Container Engine.
+* **Google Cloud Platform (GPC):** est un ensemble de services cloud offert par Google pour les développeurs et les gestionnaires d’infrastructure regroupant différents services tels que: de stockage, de networking, de Big Data, de machine learning, d’internet d’objets, de sécurité, etc… Comme toutes les platform cloud, celle de google permet aussi d'épargner  aux entreprises toutes les tâches liées à l’infrastructure et de profiter pleinement à son service à faible coûts. Parmis les services les plus populaires de Google Cloud Platform (GCP) on y trouve le google: Compute Engine, App Engine, cloud Storage, Container Engine.
 
 ### 4.CRITERES DE CHOIX  
 Actuellment le Serveless est de plus en plus utilisé dans les entreprises vu les avantages qu'il offre. Ainsi le choix d'un provider peut etre une étape crucial dans le processus de migration. Dans le tableau suivant nous allons mettre en évidence des éléments qui peuvent etre éssentielle pour le choix d'un provider.
@@ -74,8 +73,10 @@ Maintenant nous pouvont appeler un événement au niveau du code NodeJs pour éx
     };
     return response;
 };</code></pre>  
-Le résultats de notre fonction hellWord est illustré par la figure suivante.
+Le résultats de notre fonction helloWord est illustré par la figure suivante.
 ![resultat](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/resultat.PNG "resultat")  
+ ##CONCLUSION  
+Ce travail a permis de découvrir la technologie Serverless ou "informatique sans serveur" et les différents offres qu'il existe actuellement dans le marché. La premiére partie de ce travail nous a permis de de comprendre le concept ensuite nous avons choisi la plateformes AWS Lamaba pour implenter une fonction basique "HelloWord !".
 
 
 ## Références:  
