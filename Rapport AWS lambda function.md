@@ -77,7 +77,7 @@ Le résultats de notre fonction helloWord est illustré par la figure suivante.
 ![resultat](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/resultat.PNG "resultat")
 
 ## CONCLUSION  
-Ce travail a permis de découvrir la technologie Serverless ou "informatique sans serveur" et les différents offres qu'il existe actuellement dans le marché. La premiére partie de ce travail nous a permis de de comprendre le concept ensuite nous avons choisi la plateformes AWS Lamaba pour implenter une fonction basique "HelloWord !".
+Ce travail nous a permis de découvrir la technologie Serverless ou "informatique sans serveur" et les différents offres qu'il existe actuellement sur le marché. La premiére partie de ce travail nous a permis de comprendre le concept ensuite nous avons choisi la plateformes AWS Lamaba pour implenter une fonction basique "HelloWord !".
 
 
 ## Références:  
