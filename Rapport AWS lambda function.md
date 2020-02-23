@@ -43,8 +43,8 @@ Actuellment le Serveless est de plus en plus utilisé dans les entreprises vu le
 |Google Cloud Functions |- Service de débogage<br>- Association avec Firebase|-Peu de langage de programmation supporté|JavaScript, Node.js|Pas encore défini spécifiquement|
 
 ## II.CHOIX ET MISE EN PRATIQUE  
-### 1.CHOIX DE PLATEFORME
-
+### 1.CHOIX DE PLATEFORME  
+La premiére étape de notre travail nous permis de faire un choix parmis les trois fournisseurs étudié. Nous avons adopté d'utiliser le service Lambda de Amazon vu qu'il est aujourd'hui le plus dans ce domaine et fournit également des langages de programmation qui nous souhaitons utiliser pour faire nos tests. 
 ### 2.TUTORIEL D'UTILISATION AWS LAMBDA
 Dans cette partie nous allons faire un tutoriel d’utilisation du service Lambda de AWS en mettant en place une fonction HelloWorld.<br><br>
 La première étape consiste à créer un compte AWS puis se connecter à  la console AWS Management.  
@@ -74,8 +74,9 @@ Maintenant nous pouvont appeler un événement au niveau du code NodeJs pour éx
     return response;
 };</code></pre>  
 Le résultats de notre fonction helloWord est illustré par la figure suivante.
-![resultat](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/resultat.PNG "resultat")  
- ##CONCLUSION  
+![resultat](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/resultat.PNG "resultat")
+
+## CONCLUSION  
 Ce travail a permis de découvrir la technologie Serverless ou "informatique sans serveur" et les différents offres qu'il existe actuellement dans le marché. La premiére partie de ce travail nous a permis de de comprendre le concept ensuite nous avons choisi la plateformes AWS Lamaba pour implenter une fonction basique "HelloWord !".
 
 
