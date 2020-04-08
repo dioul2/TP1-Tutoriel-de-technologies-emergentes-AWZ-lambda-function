@@ -44,7 +44,7 @@ Actuellment le Serveless est de plus en plus utilisé dans les entreprises vu le
 
 ## II.CHOIX ET MISE EN PRATIQUE  
 ### 1.CHOIX DE PLATEFORME  
-La premiére étape de notre travail nous permis de faire un choix parmis les trois fournisseurs étudié. Nous avons adopté d'utiliser le service Lambda de Amazon vu qu'il est aujourd'hui le plus dans ce domaine et fournit également des langages de programmation qui nous souhaitons utiliser pour faire nos tests. 
+La premiére étape de notre travail nous a permis de faire un choix parmis les trois fournisseurs étudié. Nous avons opté d'utiliser le service Lambda de Amazon vu qu'il est aujourd'hui le plus connu et fournit également des langages de programmation que nous souhaitons utiliser pour faire nos tests. 
 ### 2.TUTORIEL D'UTILISATION AWS LAMBDA
 Dans cette partie nous allons faire un tutoriel d’utilisation du service Lambda de AWS en mettant en place une fonction HelloWorld.<br><br>
 La première étape consiste à créer un compte AWS puis se connecter à  la console AWS Management.  
