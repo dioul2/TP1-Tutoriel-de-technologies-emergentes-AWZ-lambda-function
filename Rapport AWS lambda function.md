@@ -75,7 +75,7 @@ Maintenant nous pouvont appeler un événement au niveau du code NodeJs pour éx
 };</code></pre>  
 Le résultats de notre fonction helloWord est illustré par la figure suivante.
 ![resultat](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/resultat.PNG "resultat") 
-<br> Ensuite on doit associer notre fonction lambda à un déclencher (APIGateway) afin qu'on puisse appelé notre fonction à l'exetérieur via un navigateur.
+<br> Ensuite on doit associer notre fonction lambda à un déclencher (APIGateway) comme le montre l'image ci-dessous afin qu'on puisse appelé notre fonction à l'exetérieur via un navigateur ![APIGATEWAY](https://github.com/dioul2/TP1-Tutoriel-de-technologies-emergentes-AWZ-lambda-function/blob/master/img/captureDeclencheur.png)
 
 ## CONCLUSION  
 Ce travail nous a permis de découvrir la technologie Serverless ou "informatique sans serveur" et les différents offres qu'il existe actuellement sur le marché. La premiére partie de ce travail nous a permis de comprendre le concept ensuite nous avons choisi la plateformes AWS Lamaba pour implenter une fonction basique "HelloWord !".
